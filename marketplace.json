@@ -1,0 +1,343 @@
+{
+  "name": "zcode-plugins-libre",
+  "description": "Libre plugin marketplace for ZCode: permissively-licensed, provenance-tracked re-hosts of open-source agent skills and CLI wrappers.",
+  "description_i18n": {
+    "en": "Libre plugin marketplace for ZCode: permissively-licensed, provenance-tracked re-hosts of open-source agent skills and CLI wrappers.",
+    "zh-CN": "面向 ZCode 的自由插件市场：仅收录宽松许可证、可追溯来源的开源 Agent 技能与 CLI 封装的再托管镜像。"
+  },
+  "owner": {
+    "name": "libre-zcode",
+    "url": "https://github.com/yeyuan98/zcode-plugins"
+  },
+  "plugins": [
+    {
+      "name": "skill-creator",
+      "version": "1.0.0",
+      "displayName": "Skill Creator",
+      "displayName_i18n": {
+        "en": "Skill Creator",
+        "zh-CN": "技能创作器"
+      },
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance with evals, benchmarks, and description optimization. Adapted for ZCode from Anthropic's open-source skill-creator.",
+      "description_i18n": {
+        "en": "Create new skills, modify and improve existing skills, and measure skill performance with evals, benchmarks, and description optimization. Adapted for ZCode from Anthropic's open-source skill-creator.",
+        "zh-CN": "创建、修改并持续改进 Agent 技能（Skill），通过评测、基准对比与描述优化衡量技能表现。改编自 Anthropic 开源的 skill-creator。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "category": "developer-tools",
+      "keywords": [
+        "skill-creator",
+        "skills",
+        "evals",
+        "benchmark",
+        "agent-skills"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "repository": "https://github.com/anthropics/skills",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/skill-creator-1.0.0.zip",
+        "sha256": "ad73265c6ee755308fe306378674adb47f6cff07814b5f7f4efda5c41cb99102"
+      }
+    },
+    {
+      "name": "gitlab",
+      "version": "0.1.3",
+      "displayName": "gitlab",
+      "description": "GitLab CLI workflows based on GitLab's official Agent Skills for merge requests, issues, CI/CD, repositories, releases, and API operations.",
+      "description_i18n": {
+        "en": "GitLab CLI workflows based on GitLab's official Agent Skills for merge requests, issues, CI/CD, repositories, releases, and API operations.",
+        "zh-CN": "基于官方 GitLab CLI 的 Merge Request、Issue、CI/CD、仓库、Release 与 API 工作流。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/gitlab.png",
+      "category": "developer-tools",
+      "keywords": [
+        "gitlab",
+        "glab",
+        "merge-request",
+        "issue",
+        "ci-cd",
+        "gitlab-api"
+      ],
+      "license": "MIT",
+      "homepage": "https://docs.gitlab.com/cli/",
+      "repository": "https://gitlab.com/gitlab-org/cli",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/gitlab-0.1.3.zip",
+        "sha256": "442e7b101578e7251f20398ca5825b8678a3ba80535376ce580cab2842fe5d73"
+      }
+    },
+    {
+      "name": "cloudbase-skills",
+      "version": "0.1.0",
+      "displayName": "cloudbase-skills",
+      "description": "CloudBase development skills and MCP integration for building, deploying, and troubleshooting Web, WeChat Mini Program, database, cloud function, CloudRun, storage, and AI projects.",
+      "description_i18n": {
+        "en": "CloudBase development skills and MCP integration for building, deploying, and troubleshooting Web, WeChat Mini Program, database, cloud function, CloudRun, storage, and AI projects.",
+        "zh-CN": "腾讯云 CloudBase 开发技能与 MCP 集成，覆盖 Web、微信小程序、数据库、云函数、云托管、云存储和 AI 项目的开发、部署与排障。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/cloudbase-skills.png",
+      "category": "developer-tools",
+      "keywords": [
+        "cloudbase",
+        "tencent-cloud",
+        "wechat",
+        "serverless",
+        "mcp"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/TencentCloudBase/cloudbase-skills",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/cloudbase-skills-0.1.0.zip",
+        "sha256": "ada56aab22c8e1628874f4093ddac8c0ed89510dca20bfcbaf0e1c9b85345931"
+      }
+    },
+    {
+      "name": "obsidian",
+      "version": "0.1.2",
+      "displayName": "Obsidian",
+      "displayName_i18n": {
+        "en": "Obsidian",
+        "zh-CN": "Obsidian"
+      },
+      "description": "Obsidian authoring skills from kepano/obsidian-skills: Obsidian Flavored Markdown notes, Bases database views, JSON Canvas boards, vault automation via Obsidian CLI, clean web extraction with Defuddle, and Knap template rendering — plus visualization skills from axtonliu/axton-obsidian-visual-skills: Mermaid and Excalidraw diagram generation and text-to-canvas layout. A setup skill verifies and installs the Obsidian CLI, defuddle, and knap.",
+      "description_i18n": {
+        "en": "Obsidian authoring skills from kepano/obsidian-skills: Obsidian Flavored Markdown notes, Bases database views, JSON Canvas boards, vault automation via Obsidian CLI, clean web extraction with Defuddle, and Knap template rendering — plus visualization skills from axtonliu/axton-obsidian-visual-skills: Mermaid and Excalidraw diagram generation and text-to-canvas layout. A setup skill verifies and installs the Obsidian CLI, defuddle, and knap.",
+        "zh-CN": "来自 kepano/obsidian-skills 的 Obsidian 创作技能：Obsidian 风格 Markdown 笔记、Bases 数据库视图、JSON Canvas 白板、Obsidian CLI 库操作、Defuddle 网页正文提取、Knap 模板批量生成笔记；并集成 axtonliu/axton-obsidian-visual-skills 的可视化技能：Mermaid/Excalidraw 图表生成与文本转画布布局。附 setup 技能，检测并安装 Obsidian CLI、defuddle 与 knap。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/obsidian.png",
+      "category": "productivity",
+      "keywords": [
+        "obsidian",
+        "markdown",
+        "bases",
+        "canvas",
+        "notes",
+        "defuddle",
+        "knap",
+        "mermaid",
+        "excalidraw",
+        "visualization"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/kepano/obsidian-skills",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/obsidian-0.1.2.zip",
+        "sha256": "fcbb9dd62605a770b96bd71094bfd2a804a2a01894da2facfc690d493c9203ff"
+      }
+    },
+    {
+      "name": "lark-cli",
+      "version": "0.1.2",
+      "displayName": "Lark CLI",
+      "displayName_i18n": {
+        "en": "Lark CLI",
+        "zh-CN": "飞书 CLI"
+      },
+      "description": "Lark CLI workflows for docs, sheets, Base, calendar, messaging, and other SaaS resources with guided setup and OAuth login.",
+      "description_i18n": {
+        "en": "Lark CLI workflows for docs, sheets, Base, calendar, messaging, and other SaaS resources with guided setup and OAuth login.",
+        "zh-CN": "Lark CLI 工作流：覆盖文档、表格、多维表格、日历、消息等 SaaS 资源，并引导应用配置与 OAuth 登录。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/lark-cli.png",
+      "category": "productivity",
+      "keywords": [
+        "feishu",
+        "lark",
+        "lark-cli",
+        "docs",
+        "sheets",
+        "base",
+        "calendar",
+        "messaging"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/larksuite/cli",
+      "repository": "https://github.com/larksuite/cli",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/lark-cli-0.1.2.zip",
+        "sha256": "eacc4727bb61edf06a5ba6d791c759bfb738d931c4aecf0ba320894889db7d47"
+      }
+    },
+    {
+      "name": "wecom-cli",
+      "version": "0.1.1",
+      "displayName": "WeCom CLI",
+      "displayName_i18n": {
+        "en": "WeCom CLI",
+        "zh-CN": "企业微信 CLI"
+      },
+      "description": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
+      "description_i18n": {
+        "en": "WeCom CLI workflows for messages, docs, sheets, mail, calendar, meetings, contacts, and todos with QR authentication.",
+        "zh-CN": "企业微信 CLI 工作流：覆盖消息、文档、表格、邮件、日历、会议、通讯录和待办，并支持扫码授权与状态检查。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/wecom-cli.png",
+      "category": "productivity",
+      "keywords": [
+        "wecom",
+        "wechat-work",
+        "wecom-cli",
+        "message",
+        "docs",
+        "sheets",
+        "calendar",
+        "todo"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/WecomTeam/wecom-cli",
+      "repository": "https://github.com/WecomTeam/wecom-cli",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/wecom-cli-0.1.1.zip",
+        "sha256": "632585785b6f4777dd1ca5bdfb7b25244b8c88012b8edb0e2fe33e0e7e5b23b9"
+      }
+    },
+    {
+      "name": "dingtalk-cli",
+      "version": "0.1.1",
+      "displayName": "DingTalk CLI",
+      "displayName_i18n": {
+        "en": "DingTalk CLI",
+        "zh-CN": "钉钉 CLI"
+      },
+      "description": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+      "description_i18n": {
+        "en": "DingTalk Workspace CLI workflows with OAuth/device authorization, profile checks, and optional upstream Skills.",
+        "zh-CN": "钉钉 Workspace CLI 工作流：OAuth/设备授权、验证组织账号，并按需安装上游 Skills。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/dingtalk-cli.png",
+      "category": "productivity",
+      "keywords": [
+        "dingtalk",
+        "dws",
+        "workspace",
+        "chat",
+        "docs",
+        "calendar",
+        "tasks"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+      "repository": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/dingtalk-cli-0.1.1.zip",
+        "sha256": "b5debbdec5b4789696e5ef467ffb72780b4bbb0bbfcc5268a95693807cd30d0f"
+      }
+    },
+    {
+      "name": "tencent-meeting-cli",
+      "version": "0.1.3",
+      "displayName": "Tencent Meeting CLI",
+      "displayName_i18n": {
+        "en": "Tencent Meeting CLI",
+        "zh-CN": "腾讯会议 CLI"
+      },
+      "description": "Tencent Meeting CLI workflows with OAuth2 setup, meeting management, recordings, and attendee reports.",
+      "description_i18n": {
+        "en": "Tencent Meeting CLI workflows with OAuth2 setup, meeting management, recordings, and attendee reports.",
+        "zh-CN": "腾讯会议 CLI 工作流：OAuth2 授权、会议管理、录制管理和参会报告查询。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/tencent-meeting-cli.png",
+      "category": "productivity",
+      "keywords": [
+        "tencent-meeting",
+        "tencentmeeting",
+        "meeting",
+        "cli",
+        "oauth2"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/TencentCloud/tencentmeeting-cli",
+      "repository": "https://github.com/TencentCloud/tencentmeeting-cli",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/tencent-meeting-cli-0.1.3.zip",
+        "sha256": "a2b760d9cb29702638aeb5c45df8c2e71f4430c9ddf6303266f968e4c5399d95"
+      }
+    },
+    {
+      "name": "alibaba-cloud-cli",
+      "version": "0.1.2",
+      "displayName": "Alibaba Cloud CLI",
+      "displayName_i18n": {
+        "en": "Alibaba Cloud CLI",
+        "zh-CN": "阿里云 CLI"
+      },
+      "description": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations.",
+      "description_i18n": {
+        "en": "Alibaba Cloud CLI workflows for credential setup, profile checks, and safe cloud resource operations.",
+        "zh-CN": "阿里云 CLI 工作流：配置凭证与 profile，并安全执行云资源查询和操作。"
+      },
+      "author": {
+        "name": "libre-zcode",
+        "url": "https://github.com/yeyuan98/zcode-plugins"
+      },
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/alibaba-cloud-cli.png",
+      "category": "developer-tools",
+      "keywords": [
+        "alibaba-cloud",
+        "aliyun",
+        "aliyun-cli",
+        "cloud",
+        "ecs",
+        "oss",
+        "ram"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://www.alibabacloud.com/help/en/cli/",
+      "repository": "https://github.com/aliyun/aliyun-cli",
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/alibaba-cloud-cli-0.1.2.zip",
+        "sha256": "5e08d07dfa326ce46540b1479d0807cceb4da590e0a1059ab5d4e447c44ab6b4"
+      }
+    }
+  ]
+}

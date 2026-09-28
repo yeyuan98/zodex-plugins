@@ -1,0 +1,26 @@
+{
+  "name": "skill-creator",
+  "version": "1.0.0",
+  "description": "Create new skills, modify and improve existing skills, and measure skill performance with evals, benchmarks, and description optimization. Adapted for ZCode from Anthropic's open-source skill-creator.",
+  "description_i18n": {
+    "en": "Create new skills, modify and improve existing skills, and measure skill performance with evals, benchmarks, and description optimization. Adapted for ZCode from Anthropic's open-source skill-creator.",
+    "zh-CN": "创建、修改并持续改进 Agent 技能（Skill），通过评测、基准对比与描述优化衡量技能表现。改编自 Anthropic 开源的 skill-creator。"
+  },
+  "author": {
+    "name": "libre-zcode",
+    "url": "https://github.com/yeyuan98/zcode-plugins"
+  },
+  "homepage": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+  "repository": "https://github.com/anthropics/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "skill-creator",
+    "skills",
+    "evals",
+    "benchmark",
+    "agent-skills"
+  ],
+  "skills": [
+    "skills/skill-creator"
+  ]
+}
