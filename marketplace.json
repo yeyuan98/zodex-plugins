@@ -7,7 +7,7 @@
   },
   "owner": {
     "name": "libre-zcode",
-    "url": "https://github.com/yeyuan98/zcode-plugins"
+    "url": "https://github.com/yeyuan98/zodex-plugins"
   },
   "plugins": [
     {
@@ -25,7 +25,7 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
       "category": "developer-tools",
       "keywords": [
@@ -41,7 +41,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/skill-creator-1.0.0.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/skill-creator-1.0.0.zip",
         "sha256": "ad73265c6ee755308fe306378674adb47f6cff07814b5f7f4efda5c41cb99102"
       }
     },
@@ -56,9 +56,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/gitlab.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/gitlab.png",
       "category": "developer-tools",
       "keywords": [
         "gitlab",
@@ -74,7 +74,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/gitlab-0.1.3.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/gitlab-0.1.3.zip",
         "sha256": "442e7b101578e7251f20398ca5825b8678a3ba80535376ce580cab2842fe5d73"
       }
     },
@@ -89,9 +89,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/cloudbase-skills.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/cloudbase-skills.png",
       "category": "developer-tools",
       "keywords": [
         "cloudbase",
@@ -105,7 +105,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/cloudbase-skills-0.1.0.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/cloudbase-skills-0.1.0.zip",
         "sha256": "ada56aab22c8e1628874f4093ddac8c0ed89510dca20bfcbaf0e1c9b85345931"
       }
     },
@@ -124,9 +124,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/obsidian.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/obsidian.png",
       "category": "productivity",
       "keywords": [
         "obsidian",
@@ -145,7 +145,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/obsidian-0.1.2.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/obsidian-0.1.2.zip",
         "sha256": "fcbb9dd62605a770b96bd71094bfd2a804a2a01894da2facfc690d493c9203ff"
       }
     },
@@ -164,9 +164,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/lark-cli.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/lark-cli.png",
       "category": "productivity",
       "keywords": [
         "feishu",
@@ -184,7 +184,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/lark-cli-0.1.2.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/lark-cli-0.1.2.zip",
         "sha256": "eacc4727bb61edf06a5ba6d791c759bfb738d931c4aecf0ba320894889db7d47"
       }
     },
@@ -203,9 +203,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/wecom-cli.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/wecom-cli.png",
       "category": "productivity",
       "keywords": [
         "wecom",
@@ -223,7 +223,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/wecom-cli-0.1.1.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/wecom-cli-0.1.1.zip",
         "sha256": "632585785b6f4777dd1ca5bdfb7b25244b8c88012b8edb0e2fe33e0e7e5b23b9"
       }
     },
@@ -242,9 +242,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/dingtalk-cli.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/dingtalk-cli.png",
       "category": "productivity",
       "keywords": [
         "dingtalk",
@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/dingtalk-cli-0.1.1.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/dingtalk-cli-0.1.1.zip",
         "sha256": "b5debbdec5b4789696e5ef467ffb72780b4bbb0bbfcc5268a95693807cd30d0f"
       }
     },
@@ -280,9 +280,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/tencent-meeting-cli.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/tencent-meeting-cli.png",
       "category": "productivity",
       "keywords": [
         "tencent-meeting",
@@ -297,7 +297,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/tencent-meeting-cli-0.1.3.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/tencent-meeting-cli-0.1.3.zip",
         "sha256": "a2b760d9cb29702638aeb5c45df8c2e71f4430c9ddf6303266f968e4c5399d95"
       }
     },
@@ -316,9 +316,9 @@
       },
       "author": {
         "name": "libre-zcode",
-        "url": "https://github.com/yeyuan98/zcode-plugins"
+        "url": "https://github.com/yeyuan98/zodex-plugins"
       },
-      "icon": "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons/alibaba-cloud-cli.png",
+      "icon": "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons/alibaba-cloud-cli.png",
       "category": "developer-tools",
       "keywords": [
         "alibaba-cloud",
@@ -335,7 +335,7 @@
       "source": {
         "source": "url",
         "type": "zip",
-        "url": "https://github.com/yeyuan98/zcode-plugins/releases/download/v1.0.0/alibaba-cloud-cli-0.1.2.zip",
+        "url": "https://github.com/yeyuan98/zodex-plugins/releases/download/v1.0.0/alibaba-cloud-cli-0.1.2.zip",
         "sha256": "5e08d07dfa326ce46540b1479d0807cceb4da590e0a1059ab5d4e447c44ab6b4"
       }
     }

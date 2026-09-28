@@ -31,11 +31,11 @@ import { join, posix } from "node:path";
 
 const deflateRawAsync = promisify(deflateRaw);
 
-const OWNER = { name: "libre-zcode", url: "https://github.com/yeyuan98/zcode-plugins" };
-const REPO_URL = "https://github.com/yeyuan98/zcode-plugins";
+const OWNER = { name: "libre-zcode", url: "https://github.com/yeyuan98/zodex-plugins" };
+const REPO_URL = "https://github.com/yeyuan98/zodex-plugins";
 const RELEASE_TAG = "v1.0.0";
 const RELEASE_BASE = `${REPO_URL}/releases/download/${RELEASE_TAG}`;
-const RAW_ICONS_BASE = "https://raw.githubusercontent.com/yeyuan98/zcode-plugins/main/icons";
+const RAW_ICONS_BASE = "https://raw.githubusercontent.com/yeyuan98/zodex-plugins/main/icons";
 
 // Pinned zip metadata: 2026-01-01 00:00:00 in local-independent UTC terms.
 const DOS_TIME = ((0 << 11) | (0 << 5) | 0) & 0xffff; // 00:00:00
